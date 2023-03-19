@@ -9,9 +9,6 @@ jobs:
         with:
           node-version: 18
       - name: Install node modules
-        run: npm install
+        run: npm ci
       - name: Build the Project
         run: npm run build
-      - name: Setup finished
-        run: echo "built finished"
-      - run: tree
