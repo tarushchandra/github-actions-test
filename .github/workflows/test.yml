@@ -13,5 +13,5 @@ jobs:
       - name: Build the Project
         run: npm run build
       - name: Setup finished
-        run: built finished
+        run: echo "built finished"
       - run: tree
