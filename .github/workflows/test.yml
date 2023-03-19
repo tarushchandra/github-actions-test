@@ -9,6 +9,7 @@ jobs:
         with:
           node-version: 18
       - name: Build the Project
-        run: npm build
+        run: npm run build
       - name: Setup finished
         run: built finished
+      - run: tree
